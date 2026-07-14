@@ -1,310 +1,181 @@
-# ╔══════════════════════════════════════════════════════════════════════╗
-# ║              GitVitae — Portfolio Configuration                      ║
-# ║  This is the only file you need to edit.                             ║
-# ║  Run  pnpm check-config  to catch mistakes before deploying.         ║
-# ╚══════════════════════════════════════════════════════════════════════╝
+# Portfolio Configuration
+# Edit this file and push to GitHub to update your portfolio
 
-# ╔══════════════════════════════════════════════════════════════════════╗
-# ║  ** FIRST THING TO CHANGE **                                         ║
-# ║                                                                      ║
-# ║  siteMode: "landing"  → shows the GitVitae intro page (default)      ║
-# ║  siteMode: "portfolio" → shows YOUR portfolio                        ║
-# ║                                                                      ║
-# ║  Change it to "portfolio" once you have filled in your details.      ║
-# ╚══════════════════════════════════════════════════════════════════════╝
-siteMode: "landing"   # ← CHANGE THIS to "portfolio"
-siteUrl:  "https://yourusername.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
-showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
+personal:
+  name: "Kaisha Satrio Noor Hutomo"
+  title: "Senior Web Developer"
+  avatar: "https://github.com/Kai1313.png"  # Your GitHub avatar
+  bio: |
+    Versatile Senior Web Developer with 8+ years of experience architecting 
+    scalable microservices, ERP systems, and compliance-driven pharmaceutical 
+    applications. Passionate about clean architecture, system scalability, 
+    and regulatory compliance.
+  
+  location: "Surabaya, Indonesia"
+  email: "kaishasatrio@gmail.com"
+  social:
+    linkedin: "https://www.linkedin.com/in/kaisha-satrio-929249148/"
+    github: "https://github.com/Kai1313"
 
-# ── Identity ───────────────────────────────────────────── (required) ──
-name: "Git Vitae"              # Your name — shown in the header and used as a fallback in the avatar
-title: "Portfolio-Resume Engineer"
-tagline: "I build free portfolios and resumes for everyone."
-email: "git-vitae@proton.me"
-phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
-location: "San Francisco, CA"
-avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmile&radius=12"  # Demo avatar — replace with your own photo URL (see instructions below)
-# How to add a profile photo (free, no extra account needed):
-#   1. Go to your GitHub repo → click "Add file" → "Upload files"
-#   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
-#   3. After committing, open the file on GitHub and copy the raw URL:
-#      https://raw.githubusercontent.com/YOU/your-repo/main/public/avatar.jpg
-#   4. Paste that URL here.
-# Leave empty to show your initials as a styled placeholder.
+# Open to work status
+status:
+  available: true  # Set to false if not looking
+  message: "Open to new opportunities"
 
-# ── Resume download ────────────────────────────────────────────────────
-# Optional: link directly to a hosted PDF (Google Drive, Dropbox, etc.)
-# If left blank the navbar "Resume" button opens the built-in resume page
-# where visitors can use "Save PDF" to print their own copy.
-#
-# How to get a direct download link:
-#   1. Visit /resume in your portfolio, click "Save PDF" -> save the file
-#   2. Upload that PDF to Google Drive / Dropbox and copy the direct link
-#   3. Paste the link below and update resumeFileName accordingly
-#
-# resumeUrl: "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
-# resumeFileName: "Git_Vitae_Resume.pdf"
-
-# ── Status ─────────────────────────────────────────────────────────────
-openToWork: true         # Shows "Open to Opportunities" banner when true
-
-# ── Theme ──────────────────────────────────────────────────────────────
-defaultTheme: "system"   # Options: light | dark | system
-colorPreset: "indigo"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
-# primaryColor: "#6366f1" # Optional — pick any colour you like and paste its hex code here.
-                           # Overrides colorPreset above. To find a hex code:
-                           #   → Google "colour picker", pick a colour, copy the 6-digit code (e.g. #e11d48)
-                           #   → or grab one from coolors.co / your favourite site's colour
-
-resumeTheme:
-  twoColumn: "indigo"    # Accent color for the two-column resume layout
-  classic: "emerald"     # Accent color for the classic resume layout
-
-contactFormEndpoint: ""  # Optional — paste a Formspree URL (https://formspree.io/f/xxxx)
-                           # or any POST endpoint that accepts {name, email, message}.
-                           # Leave empty to use a pre-filled mailto: link instead.
-
-# ── Section visibility ─────────────────────────────────────────────────
-# Set show: false to hide any section from your portfolio
-sections:
-  - { id: about,          show: true  }
-  - { id: stats,          show: false }  # Stats already appear as cards in the About section above — enable this only if you want a dedicated full-width stats section
-  - { id: skills,         show: true  }
-  - { id: languages,      show: true  }
-  - { id: experience,     show: true  }
-  - { id: projects,       show: true  }
-  - { id: education,      show: true  }
-  - { id: certifications, show: true  }
-  - { id: publications,   show: false }
-  - { id: testimonials,   show: true  }
-  - { id: contact,        show: true  }
-
-# ── Social links ───────────────────────────── (leave blank to hide) ───
-social:
-  github:   "https://github.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
-  twitter:  ""
-  website:  ""
-
-# ── About ──────────────────────────────────────────────────────────────
-# Use | for multi-line text. Indent each line by 2 spaces.
-about: |
-  I'm a portfolio-resume engineer with 5+ years of experience building products
-  that people love. I specialize in React, Node.js, and distributed systems.
-  When I'm not coding, I'm hiking trails or experimenting with new coffee
-  brewing methods.
-
-
-# ── Stats ──────────────────────────────────────────────────────────────
-# Customise each label and value freely — change "Projects Shipped" to
-# "Active Customers", "Happy Clients", "Open Source Stars", etc.
-# Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
-# Remove all entries or set show: false above to hide this section.
-stats:
-  - { label: "Years Experience", value: 5,    suffix: "+" }
-  - { label: "Projects Shipped", value: 20,   suffix: "+" }
-  - { label: "Happy Clients",    value: 50,   suffix: "+" }
-  - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
-
-# Examples of other combinations you can use:
-#   - { label: "Active Users",    value: 10000, suffix: "+" }
-#   - { label: "Revenue",         value: 2,     prefix: "$", suffix: "M+" }
-#   - { label: "Countries",       value: 12,    suffix: ""  }
-
-# ── Languages ──────────────────────────────────────────────────────────
-# level options: Native | Fluent | Conversational | Basic
-languages:
-  - { name: "English",  level: "Native"        }
-  - { name: "Spanish",  level: "Conversational" }
-  - { name: "Mandarin", level: "Basic"          }
-
-# ── Skills ─────────────────────────────────────────────────────────────
+# Skills - Grouped by category
 skills:
-  - category: "Frontend"
-    items: [React, TypeScript, Next.js, Tailwind CSS, Framer Motion]
   - category: "Backend"
-    items: [Node.js, Express, PostgreSQL, Redis, GraphQL]
-  - category: "DevOps"
-    items: [Docker, AWS, CI/CD, Kubernetes, Terraform]
-  - category: "Tools"
-    items: [Git, Figma, Jest, Storybook, Datadog]
+    items:
+      - "Golang"
+      - "Node.js"
+      - "PHP (Laravel, Codeigniter)"
+      - "Python"
+  
+  - category: "Frontend"
+    items:
+      - "Next.js"
+      - "React"
+      - "JavaScript"
+      - "HTML & CSS"
+  
+  - category: "Database"
+    items:
+      - "MySQL"
+      - "SQL Server"
+      - "PostgreSQL"
+  
+  - category: "Architecture & DevOps"
+    items:
+      - "Microservices"
+      - "Docker"
+      - "REST API"
+      - "API Gateway"
+      - "CI/CD"
+      - "Git"
+  
+  - category: "Mobile & Design"
+    items:
+      - "Flutter"
+      - "Photoshop"
+      - "Illustrator"
 
-# ── Experience ─────────────────────────────────────────────────────────
+# Work Experience
 experience:
-  - company: "Acme Corp"
-    role: "Senior Full-Stack Engineer"
-    period: "2022 – Present"
+  - company: "Genesys Integrated Indonesia"
+    location: "Surabaya, Indonesia"
+    role: "Senior Web Developer"
+    start: "Dec 2021"
+    end: "Current"
     description: |
-      Led migration of monolithic Rails app to microservices.
-      Reduced p99 latency by 60%. Mentored a team of 4 engineers.
-    highlights:
-      - Microservices migration
-      - 60% latency reduction
-      - Team leadership
+      - Architected e-commerce platform using Golang, Next.js, Docker, PostgreSQL with 99.9% uptime
+      - Designed microservices-based booking system for wellness providers with 100+ daily bookings
+      - Developed BPOM serialization system for Meiji and Otsuka with 100% regulatory compliance
+      - Engineered HR management system for 500+ employees
+      - Built warehouse management system for Unipin optimizing supply chain visibility
+      - Delivered ERP solution with sales, logistics, and accounting modules
+      - Developed frontend with Next.js and React
 
-  - company: "Startup XYZ"
-    role: "Software Engineer"
-    period: "2020 – 2022"
+  - company: "PT. Multi Artistikacithra (Match Adv.)"
+    location: "Surabaya, Indonesia"
+    role: "Head of IT Department"
+    start: "Jan 2020"
+    end: "Dec 2021"
     description: |
-      Built real-time collaboration features for a SaaS platform serving
-      50k users. Owned the entire frontend from scratch.
-    highlights:
-      - Real-time collaboration
-      - 50k users
-      - Frontend ownership
+      - Maintained and enhanced ERP web application for 50+ internal users
+      - Managed IT infrastructure, procurement, and operations
+      - Oversaw digital marketing content platform
 
-  - company: "Freelance"
+  - company: "PT. Wijaya Iklan Indonesia (Wiklan)"
+    location: "Surabaya, Indonesia"
+    role: "Lead Programmer"
+    start: "Jan 2019"
+    end: "Dec 2019"
+    description: |
+      - Developed full-featured e-commerce platform for 200+ active vendors
+
+  - company: "PT. Multi Artistikacithra (Match Adv.)"
+    location: "Surabaya, Indonesia"
+    role: "Head of IT Department"
+    start: "Jan 2018"
+    end: "Dec 2018"
+    description: |
+      - Built comprehensive ERP system covering sales, logistics, and accounting
+      - Led IT procurement and operational strategy across 3 office locations
+      - Developed e-catalogue website with 500+ product listings
+
+  - company: "PT. Multi Artistikacithra (Match Adv.)"
+    location: "Surabaya, Indonesia"
     role: "Web Developer"
-    period: "2018 – 2020"
+    start: "Oct 2016"
+    end: "Dec 2017"
     description: |
-      Delivered 20+ web projects for small businesses and agencies across
-      e-commerce, marketing, and internal tools.
-    highlights:
-      - 20+ projects
-      - E-commerce
-      - Internal tools
+      - Developed corporate profile websites
+      - Built sales and logistics application
 
-# ── Projects ───────────────────────────────────────────────────────────
-# Set featured: true to show in the Featured section (max 3 recommended)
+# Projects - Highlight your best work
 projects:
-  - name: "OpenDesk"
-    description: "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets."
-    tags: [React, Go, WebSockets, PostgreSQL]
-    liveUrl: "https://opendesk.example.com"
-    repoUrl: "https://github.com/yourusername/opendesk"
+  - name: "E-Commerce Microservices Platform"
+    description: |
+      Scalable e-commerce platform built with microservices architecture 
+      using Golang, Next.js, Express.js, Docker, and PostgreSQL.
+    tech: ["Golang", "Next.js", "Docker", "PostgreSQL", "Microservices"]
+    repo: "https://github.com/Kai1313/ecommerce-microservices"  # Add your repo URL
+    demo: "https://your-demo-url.com"  # Optional
     featured: true
 
-  - name: "CodeLens"
-    description: "VS Code extension that uses AI to generate inline documentation. 10k+ installs from the marketplace."
-    tags: [TypeScript, OpenAI, "VS Code API"]
-    liveUrl: ""
-    repoUrl: "https://github.com/yourusername/codelens"
+  - name: "Membership & Booking System"
+    description: |
+      Microservices-based booking system for wellness service providers 
+      with real-time appointment scheduling and containerized deployment.
+    tech: ["Golang", "Next.js", "Express.js", "Docker", "PostgreSQL"]
+    repo: "https://github.com/Kai1313/booking-microservices"
     featured: true
 
-  - name: "PriceWatch"
-    description: "Browser extension that tracks price history on e-commerce sites and alerts users to drops."
-    tags: [JavaScript, "Chrome API", Node.js]
-    liveUrl: "https://pricewatch.example.com"
-    repoUrl: "https://github.com/yourusername/pricewatch"
+  - name: "BPOM Serialization System (Codetrack)"
+    description: |
+      Pharmaceutical serialization system for Meiji and Otsuka ensuring 
+      100% compliance with BPOM traceability regulations.
+    tech: ["Laravel", "Node.js", "MySQL"]
+    repo: "https://github.com/Kai1313/codetrack"
     featured: false
 
-  - name: "Logbook"
-    description: "A minimalist journaling app with end-to-end encryption. Built in a weekend. 500+ users."
-    tags: ["React Native", SQLite, Crypto]
-    liveUrl: ""
-    repoUrl: "https://github.com/yourusername/logbook"
+  - name: "HRMS (Intrax)"
+    description: |
+      HR management system with web and Android mobile interfaces 
+      handling employee lifecycle, attendance, and payroll.
+    tech: ["Laravel", "JavaScript", "MySQL", "Flutter"]
+    repo: "https://github.com/Kai1313/intrax-hrms"
     featured: false
 
-# ── Education ──────────────────────────────────────────────────────────
+  - name: "Warehouse Management System (SPODA)"
+    description: |
+      Inventory and supply chain management system for Unipin spare parts distribution.
+    tech: ["Laravel", "MySQL"]
+    repo: "https://github.com/Kai1313/spoda"
+    featured: false
+
+  - name: "ERP (Salmon2)"
+    description: |
+      ERP solution integrating sales, logistics, and accounting modules 
+      for corporate clients.
+    tech: ["Laravel", "PHP", "MySQL"]
+    repo: "https://github.com/Kai1313/salmon2-erp"
+    featured: false
+
+# Certifications (if any)
+certifications: []
+  # - name: "Golang Certification"
+  #   issuer: "Example Org"
+  #   date: "2023"
+
+# Education
 education:
-  - institution: "University of California, Berkeley"
-    degree: "B.S. Computer Science"
-    period: "2014 – 2018"
+  - degree: "Bachelor of Computer Science"
+    institution: "Dinamika University (STIKOM Surabaya)"
+    location: "Surabaya, Indonesia"
+    year: "2016"
 
-# ── Certifications ─────────────────────────────────────────────────────
-certifications:
-  - title: "AWS Certified Solutions Architect – Associate"
-    issuer: "Amazon Web Services"
-    date: "2023"
-    credentialUrl: "https://aws.amazon.com/verification"
-    badgeUrl: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
-    tags: [Cloud, Architecture, AWS]
-
-  - title: "Professional Scrum Master I"
-    issuer: "Scrum.org"
-    date: "2022"
-    credentialUrl: "https://www.scrum.org/certificates"
-    badgeUrl: "https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9e11-2a8f48155adc/image.png"
-    tags: [Agile, Scrum, Leadership]
-
-  - title: "Google Professional Data Engineer"
-    issuer: "Google Cloud"
-    date: "2021"
-    credentialUrl: ""
-    badgeUrl: ""
-    tags: [Data, GCP, BigQuery]
-
-
-# ── Publications ───────────────────────────────────────────────────────
-# Optional — ideal for researchers, academics, and technical writers.
-# type options: conference | journal | preprint | book-chapter | workshop
-publications:
-  - title: "Scaling Real-Time Collaboration in Distributed Systems"
-    authors: "Rivera A, Chen L, Patel S"
-    venue: "USENIX ATC 2023"
-    year: "2023"
-    url: "https://arxiv.org/abs/example"
-    type: "conference"
-    tags: [distributed-systems, real-time, scalability]
-
-  - title: "Micro-Frontend Architecture Patterns for Large-Scale SPAs"
-    authors: "Rivera A"
-    venue: "IEEE Software"
-    year: "2022"
-    url: ""
-    type: "journal"
-    tags: [frontend, architecture, micro-frontends]
-
-# ── Testimonials ───────────────────────────────────────────────────────
-testimonials:
-  - name: "Sarah Chen"
-    title: "Engineering Manager"
-    company: "Acme Corp"
-    relationship: "Manager"   # e.g. Manager | Colleague | Client | Mentor
-    quote: |
-      Alex is one of the most thoughtful engineers I've had the pleasure of
-      working with. They consistently delivered high-quality work on time and
-      elevated the entire team's standards.
-    photoUrl: ""              # URL to headshot — leave empty for initials
-
-  - name: "James Okafor"
-    title: "Senior Product Designer"
-    company: "Startup XYZ"
-    relationship: "Colleague"
-    quote: |
-      Working with Alex was a joy. They have a rare ability to translate vague
-      product requirements into clean, elegant code. Our collaboration made the
-      product significantly better.
-    photoUrl: ""
-
-  - name: "Priya Nair"
-    title: "CTO"
-    company: "FinTech Ventures"
-    relationship: "Client"
-    quote: |
-      Alex delivered the project ahead of schedule and the code quality was
-      exceptional. They communicated proactively, flagged risks early, and were
-      genuinely invested in our success.
-    photoUrl: ""
-
-# ── Analytics (optional, always free) ──────────────────────────────────────
-# Two ways to track who visits your portfolio — both free, no credit card:
-#
-# 1. GitHub built-in traffic (zero setup — already there!)
-#    Go to your repository → Insights → Traffic.
-#    Shows unique visitors, page views, and top referrers for the last 14 days.
-#
-# 2. GoatCounter (more detail, privacy-friendly, free forever for personal use)
-#    Sign up at https://www.goatcounter.com — you'll get a short code, e.g. "janedoe"
-#    Uncomment the two lines below and replace "yourcode" with your GoatCounter code:
-#
-# analytics:
-#   goatcounterCode: "yourcode"
-
-# ── Blog ─────────────────────────────────────────────────────────────────────
-# Drop any .md file into the blog/ folder — it becomes a post automatically.
-# Each post starts with a small block called "frontmatter" (between --- lines):
-#
-#   ---
-#   title: "My Post Title"
-#   date: "2025-01-15"
-#   tags: [life, tech]
-#   excerpt: "One sentence that appears on the listing page."
-#   ---
-#
-# Then write your post in plain Markdown below the closing ---.
-# See the sample posts in blog/ to get started.
-blog:
-  enabled: true
-  title: "Blog"
-  description: "Thoughts, stories and ideas — everything in one place."
+# Theme settings (optional)
+theme:
+  color: "blue"  # Options: blue, purple, green, red, orange, teal
+  dark_mode: true
