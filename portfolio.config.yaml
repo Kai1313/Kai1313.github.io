@@ -26,8 +26,8 @@ location: "Surabaya, Indonesia"
 avatarUrl: "https://github.com/Kai1313.png"
 
 # ── Resume download ────────────────────────────────────────────────────
-resumeUrl: "https://raw.githubusercontent.com/Kai1313/kai1313.github.io/main/kaisha_satrio_cv.docx"
-resumeFileName: "kaisha_satrio_cv.docx"
+# resumeUrl: ""  # Leave blank — GitVitae generates the resume
+resumeFileName: "Kaisha_Hutomo_Resume.pdf"
 
 # ── Status ─────────────────────────────────────────────────────────────
 openToWork: true
