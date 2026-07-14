@@ -4,62 +4,62 @@
 personal:
   name: "Kaisha Satrio Noor Hutomo"
   title: "Senior Web Developer"
-  avatar: "https://github.com/Kai1313.png"  # Your GitHub avatar
+  avatar: "https://github.com/Kai1313.png"
   bio: |
     Versatile Senior Web Developer with 8+ years of experience architecting 
     scalable microservices, ERP systems, and compliance-driven pharmaceutical 
-    applications. Passionate about clean architecture, system scalability, 
-    and regulatory compliance.
-  
+    applications. Proven track record delivering Golang, Node.js, and Docker-based 
+    solutions for e-commerce, wellness, and enterprise clients.
   location: "Surabaya, Indonesia"
   email: "kaishasatrio@gmail.com"
   social:
     linkedin: "https://www.linkedin.com/in/kaisha-satrio-929249148/"
     github: "https://github.com/Kai1313"
 
-# Open to work status
 status:
-  available: true  # Set to false if not looking
+  available: true
   message: "Open to new opportunities"
 
-# Skills - Grouped by category
 skills:
   - category: "Backend"
     items:
       - "Golang"
       - "Node.js"
-      - "PHP (Laravel, Codeigniter)"
       - "Python"
-  
+      - "PHP"
+      - "Laravel"
+      - "Codeigniter"
   - category: "Frontend"
     items:
       - "Next.js"
       - "React"
       - "JavaScript"
-      - "HTML & CSS"
-  
+      - "HTML"
+      - "CSS"
   - category: "Database"
     items:
       - "MySQL"
       - "SQL Server"
       - "PostgreSQL"
-  
-  - category: "Architecture & DevOps"
+  - category: "Architecture"
     items:
       - "Microservices"
-      - "Docker"
       - "REST API"
       - "API Gateway"
-      - "CI/CD"
+      - "Distributed Systems"
+  - category: "DevOps & Tools"
+    items:
+      - "Docker"
       - "Git"
-  
-  - category: "Mobile & Design"
+      - "CI/CD"
+  - category: "Mobile"
     items:
       - "Flutter"
+  - category: "Design"
+    items:
       - "Photoshop"
       - "Illustrator"
 
-# Work Experience
 experience:
   - company: "Genesys Integrated Indonesia"
     location: "Surabaya, Indonesia"
@@ -67,13 +67,13 @@ experience:
     start: "Dec 2021"
     end: "Current"
     description: |
-      - Architected e-commerce platform using Golang, Next.js, Docker, PostgreSQL with 99.9% uptime
-      - Designed microservices-based booking system for wellness providers with 100+ daily bookings
-      - Developed BPOM serialization system for Meiji and Otsuka with 100% regulatory compliance
-      - Engineered HR management system for 500+ employees
-      - Built warehouse management system for Unipin optimizing supply chain visibility
-      - Delivered ERP solution with sales, logistics, and accounting modules
-      - Developed frontend with Next.js and React
+      - Architected scalable e-commerce platform using microservices architecture (Golang, Next.js, Express.js, Docker, PostgreSQL) with 99.9% system uptime
+      - Designed microservices-based membership and booking system using Golang, Next.js, Express.js, Docker, and PostgreSQL for wellness service providers with 100+ daily bookings
+      - Developed pharmaceutical serialization system using Laravel and Node.js for Meiji and Otsuka with 100% BPOM compliance
+      - Engineered HR management system with web and Android mobile interfaces for 500+ employees
+      - Built warehouse management system using Laravel and MySQL for Unipin optimizing inventory control
+      - Delivered ERP solution integrating sales, logistics, and accounting modules for corporate clients
+      - Developed frontend applications using Next.js and React for responsive user interfaces
 
   - company: "PT. Multi Artistikacithra (Match Adv.)"
     location: "Surabaya, Indonesia"
@@ -82,7 +82,7 @@ experience:
     end: "Dec 2021"
     description: |
       - Maintained and enhanced ERP web application for 50+ internal users
-      - Managed IT infrastructure, procurement, and operations
+      - Managed IT infrastructure, hardware, software procurement, and operations
       - Oversaw digital marketing content platform
 
   - company: "PT. Wijaya Iklan Indonesia (Wiklan)"
@@ -100,7 +100,7 @@ experience:
     end: "Dec 2018"
     description: |
       - Built comprehensive ERP system covering sales, logistics, and accounting
-      - Led IT procurement and operational strategy across 3 office locations
+      - Led IT procurement, maintenance, and operational strategy across 3 office locations
       - Developed e-catalogue website with 500+ product listings
 
   - company: "PT. Multi Artistikacithra (Match Adv.)"
@@ -109,25 +109,34 @@ experience:
     start: "Oct 2016"
     end: "Dec 2017"
     description: |
-      - Developed corporate profile websites
-      - Built sales and logistics application
+      - Developed multiple corporate profile websites
+      - Built web-based sales and logistics application
 
-# Projects - Highlight your best work
 projects:
   - name: "E-Commerce Microservices Platform"
     description: |
       Scalable e-commerce platform built with microservices architecture 
       using Golang, Next.js, Express.js, Docker, and PostgreSQL.
-    tech: ["Golang", "Next.js", "Docker", "PostgreSQL", "Microservices"]
-    repo: "https://github.com/Kai1313/ecommerce-microservices"  # Add your repo URL
-    demo: "https://your-demo-url.com"  # Optional
+    tech:
+      - "Golang"
+      - "Next.js"
+      - "Express.js"
+      - "Docker"
+      - "PostgreSQL"
+      - "Microservices"
+    repo: "https://github.com/Kai1313/ecommerce-microservices"
     featured: true
 
   - name: "Membership & Booking System"
     description: |
       Microservices-based booking system for wellness service providers 
       with real-time appointment scheduling and containerized deployment.
-    tech: ["Golang", "Next.js", "Express.js", "Docker", "PostgreSQL"]
+    tech:
+      - "Golang"
+      - "Next.js"
+      - "Express.js"
+      - "Docker"
+      - "PostgreSQL"
     repo: "https://github.com/Kai1313/booking-microservices"
     featured: true
 
@@ -135,7 +144,10 @@ projects:
     description: |
       Pharmaceutical serialization system for Meiji and Otsuka ensuring 
       100% compliance with BPOM traceability regulations.
-    tech: ["Laravel", "Node.js", "MySQL"]
+    tech:
+      - "Laravel"
+      - "Node.js"
+      - "MySQL"
     repo: "https://github.com/Kai1313/codetrack"
     featured: false
 
@@ -143,14 +155,20 @@ projects:
     description: |
       HR management system with web and Android mobile interfaces 
       handling employee lifecycle, attendance, and payroll.
-    tech: ["Laravel", "JavaScript", "MySQL", "Flutter"]
+    tech:
+      - "Laravel"
+      - "JavaScript"
+      - "MySQL"
+      - "Flutter"
     repo: "https://github.com/Kai1313/intrax-hrms"
     featured: false
 
   - name: "Warehouse Management System (SPODA)"
     description: |
       Inventory and supply chain management system for Unipin spare parts distribution.
-    tech: ["Laravel", "MySQL"]
+    tech:
+      - "Laravel"
+      - "MySQL"
     repo: "https://github.com/Kai1313/spoda"
     featured: false
 
@@ -158,24 +176,19 @@ projects:
     description: |
       ERP solution integrating sales, logistics, and accounting modules 
       for corporate clients.
-    tech: ["Laravel", "PHP", "MySQL"]
+    tech:
+      - "Laravel"
+      - "PHP"
+      - "MySQL"
     repo: "https://github.com/Kai1313/salmon2-erp"
     featured: false
 
-# Certifications (if any)
-certifications: []
-  # - name: "Golang Certification"
-  #   issuer: "Example Org"
-  #   date: "2023"
-
-# Education
 education:
   - degree: "Bachelor of Computer Science"
     institution: "Dinamika University (STIKOM Surabaya)"
     location: "Surabaya, Indonesia"
     year: "2016"
 
-# Theme settings (optional)
 theme:
-  color: "blue"  # Options: blue, purple, green, red, orange, teal
+  color: "blue"
   dark_mode: true
