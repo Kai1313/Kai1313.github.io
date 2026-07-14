@@ -14,7 +14,7 @@
 # ╚══════════════════════════════════════════════════════════════════════╝
 siteMode: "portfolio"   # ← CHANGED to "portfolio"
 siteUrl: "https://kai1313.github.io"  # ← Your GitHub Pages URL
-showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge
+showPoweredBy: true  # Set to true to show a small "Made with GitVitae" badge
 
 # ── Identity ───────────────────────────────────────────── (required) ──
 name: "Kaisha Satrio Noor Hutomo"
