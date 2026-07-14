@@ -26,7 +26,8 @@ location: "Surabaya, Indonesia"
 avatarUrl: "https://github.com/Kai1313.png"
 
 # ── Resume download ────────────────────────────────────────────────────
-resumeFileName: "Kaisha_Hutomo_Resume.pdf"
+resumeUrl: "https://raw.githubusercontent.com/Kai1313/kai1313.github.io/main/kaisha_satrio_cv.docx"
+resumeFileName: "kaisha_satrio_cv.docx"
 
 # ── Status ─────────────────────────────────────────────────────────────
 openToWork: true
@@ -104,29 +105,29 @@ skills:
 experience:
   - company: "Genesys Integrated Indonesia"
     role: "Senior Web Developer"
-    period: "Dec 2021 – Present"
+    period: "Dec 2021 – Current"
     location: "Surabaya, Indonesia"
     description: |
-      Architected and delivered multiple enterprise-scale applications across
-      pharmaceutical, HR, logistics, and e-commerce domains.
+      Architected and delivered multiple enterprise-scale applications across pharmaceutical, HR, logistics, and e-commerce domains.
     highlights:
-      - Architected microservices e-commerce platform (Golang, Next.js, Docker, PostgreSQL) with 99.9% uptime
-      - Designed membership & booking system using Golang, Next.js, Docker, PostgreSQL with 100+ daily bookings
-      - Developed BPOM serialization system for Meiji & Otsuka with 100% regulatory compliance
-      - Engineered HR management system for 500+ employees with web + Android mobile
-      - Built warehouse management system for Unipin optimizing inventory control
-      - Delivered ERP solution with sales, logistics, and accounting modules
+      - "Architected scalable e-commerce platform using microservices architecture (Golang, Next Js, Express Js, Docker, PostgreSQL) to support high-traffic online retail operations with 99.9% system uptime and independent service scalability"
+      - "Designed and deployed microservices-based membership and booking system using Golang, Next Js, Express Js, Docker, and PostgreSQL for wellness service providers, enabling 100+ daily appointment bookings with real-time scheduling and containerized deployment"
+      - "Developed pharmaceutical serialization system using Laravel and Node.Js for Meiji and Otsuka, ensuring 100% compliance with BPOM traceability regulations for domestic product barcode tracking"
+      - "Engineered HR management system with web and Android mobile interfaces, handling employee lifecycle, attendance, and payroll processing"
+      - "Built warehouse management system using Laravel and MySQL, optimizing inventory control and supply chain visibility for spare parts distribution"
+      - "Delivered ERP solution integrating sales, logistics, and accounting modules for multiple corporate clients, streamlining cross-departmental workflows"
+      - "Developed frontend applications using Next.Js and React for responsive, high-performance user interfaces"
 
   - company: "PT. Multi Artistikacithra (Match Adv.)"
     role: "Head of IT Department"
     period: "Jan 2020 – Dec 2021"
     location: "Surabaya, Indonesia"
     description: |
-      Led IT operations and maintained enterprise ERP systems.
+      Led IT operations and maintained enterprise systems.
     highlights:
-      - Maintained and enhanced ERP web application for 50+ internal users
-      - Managed IT infrastructure, hardware, software procurement, and operations
-      - Oversaw digital marketing content platform
+      - "Maintained and enhanced ERP web application supporting sales, logistics, and accounting operations"
+      - "Managed IT infrastructure, including hardware and software procurement, maintenance, and operations"
+      - "Oversaw digital marketing content platform"
 
   - company: "PT. Wijaya Iklan Indonesia (Wiklan)"
     role: "Lead Programmer"
@@ -135,7 +136,7 @@ experience:
     description: |
       Developed e-commerce platform for advertising media placement.
     highlights:
-      - Built full-featured e-commerce platform for 200+ active vendors
+      - "Developed full-featured e-commerce platform for advertising media placement"
 
   - company: "PT. Multi Artistikacithra (Match Adv.)"
     role: "Head of IT Department"
@@ -144,9 +145,9 @@ experience:
     description: |
       Built enterprise ERP system and led IT strategy.
     highlights:
-      - Built comprehensive ERP system covering sales, logistics, and accounting
-      - Led IT procurement and operational strategy across 3 office locations
-      - Developed e-catalogue website with 500+ product listings
+      - "Built comprehensive ERP system (match-terpadu) covering sales, logistics, and accounting functions"
+      - "Led IT procurement, maintenance, and operational strategy"
+      - "Developed e-catalogue website"
 
   - company: "PT. Multi Artistikacithra (Match Adv.)"
     role: "Web Developer"
@@ -155,8 +156,8 @@ experience:
     description: |
       Developed web applications and corporate websites.
     highlights:
-      - Developed multiple corporate profile websites
-      - Built web-based sales and logistics application
+      - "Developed multiple corporate profile websites"
+      - "Built web-based sales and logistics application"
 
 # ── Projects ───────────────────────────────────────────────────────────
 projects:
@@ -174,14 +175,14 @@ projects:
     repoUrl: "https://github.com/Kai1313/booking-microservices"
     featured: true
 
-  - name: "BPOM Serialization System (Codetrack)"
+  - name: "BPOM Serialization System"
     description: "Pharmaceutical serialization system for Meiji and Otsuka ensuring 100% compliance with BPOM traceability regulations for domestic product barcode tracking across 500+ SKUs."
     tags: ["Laravel", "Node.js", "MySQL"]
     liveUrl: ""
     repoUrl: "https://github.com/Kai1313/codetrack"
     featured: true
 
-  - name: "HRMS (Intrax)"
+  - name: "HRMS"
     description: "Human resource management system with web and Android mobile interfaces handling employee lifecycle, attendance, and payroll processing for 500+ employees."
     tags: ["Laravel", "JavaScript", "MySQL", "Flutter"]
     liveUrl: ""
@@ -195,7 +196,7 @@ projects:
     repoUrl: "https://github.com/Kai1313/spoda"
     featured: false
 
-  - name: "ERP (Salmon2)"
+  - name: "ERP"
     description: "Enterprise resource planning solution integrating sales, logistics, and accounting modules for multiple corporate clients."
     tags: ["Laravel", "PHP", "MySQL"]
     liveUrl: ""
