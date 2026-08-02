@@ -18,7 +18,7 @@ showPoweredBy: true  # Set to true to show a small "Made with GitVitae" badge
 
 # ── Identity ───────────────────────────────────────────── (required) ──
 name: "Kaisha Satrio Noor Hutomo"
-title: "Senior Web Developer"
+title: "Software Engineer | Senior Web Developer"
 tagline: "Building Scalable Microservices & Enterprise Systems"
 email: "kaishasatrio@gmail.com"
 phone: "0852-3615-2117"
@@ -65,7 +65,7 @@ social:
 
 # ── About ──────────────────────────────────────────────────────────────
 about: |
-  Versatile Senior Web Developer with 8+ years of experience architecting
+  Versatile Software Engineer with 8+ years of experience architecting
   scalable microservices, ERP systems, and compliance-driven pharmaceutical
   applications. Proven track record delivering Golang, Node.js, and Docker-based
   solutions for e-commerce, wellness, and enterprise clients.
