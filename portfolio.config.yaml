@@ -165,21 +165,21 @@ projects:
     description: "Scalable e-commerce platform built with microservices architecture using Golang, Next.js, Express.js, Docker, and PostgreSQL. Supports high-traffic retail operations with 99.9% uptime."
     tags: ["Golang", "Next.js", "Docker", "PostgreSQL", "Microservices"]
     liveUrl: ""
-    repoUrl: "https://github.com/Kai1313/ecommerce-microservices"
+    repoUrl: ""
     featured: true
 
   - name: "Membership & Booking System"
     description: "Microservices-based booking system for wellness service providers with real-time appointment scheduling and containerized deployment using Docker. Handles 100+ daily bookings."
     tags: ["Golang", "Next.js", "Express.js", "Docker", "PostgreSQL"]
     liveUrl: ""
-    repoUrl: "https://github.com/Kai1313/booking-microservices"
+    repoUrl: ""
     featured: true
 
   - name: "BPOM Serialization System"
     description: "Pharmaceutical serialization system for Meiji and Otsuka ensuring 100% compliance with BPOM traceability regulations for domestic product barcode tracking across 500+ SKUs."
     tags: ["Laravel", "Node.js", "MySQL"]
     liveUrl: ""
-    repoUrl: "https://github.com/Kai1313/codetrack"
+    repoUrl: ""
     featured: true
 
   - name: "HRMS"
@@ -189,18 +189,25 @@ projects:
     repoUrl: "https://github.com/Kai1313/intrax-hrms"
     featured: false
 
-  - name: "Warehouse Management System (SPODA)"
+  - name: "Warehouse Management System"
     description: "Inventory and supply chain management system for Unipin spare parts distribution, optimizing inventory control and reducing fulfillment errors."
     tags: ["Laravel", "MySQL"]
     liveUrl: ""
-    repoUrl: "https://github.com/Kai1313/spoda"
+    repoUrl: ""
     featured: false
 
   - name: "ERP"
     description: "Enterprise resource planning solution integrating sales, logistics, and accounting modules for multiple corporate clients."
     tags: ["Laravel", "PHP", "MySQL"]
     liveUrl: ""
-    repoUrl: "https://github.com/Kai1313/salmon2-erp"
+    repoUrl: ""
+    featured: false
+    
+  - name: "Archive & Reporting Management System"
+    description: "Archive and reporting management system, featuring checklist reviews, electronic document signatures, RBAC, and PDF report generation."
+    tags: ["Laravel", "PHP", "MySQL", "AdminLTE"]
+    liveUrl: ""
+    repoUrl: "https://github.com/Kai1313/ngoroindustrialpark"
     featured: false
 
 # ── Education ──────────────────────────────────────────────────────────
