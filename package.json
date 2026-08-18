@@ -1,0 +1,13 @@
+{
+  "name": "buildwithjay-replica",
+  "version": "1.0.0",
+  "description": "Local replica of Fahrul Sanjaya's neo-brutalist portfolio website",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "start": "npx serve . -l 3000",
+    "serve": "npx serve . -l 3000"
+  },
+  "keywords": ["portfolio", "neo-brutalist", "tailwind"],
+  "author": "Fahrul Sanjaya",
+  "license": "MIT"
+}
